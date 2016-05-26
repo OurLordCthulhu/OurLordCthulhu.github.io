@@ -1,6 +1,6 @@
 * {
-	position: absolute;
-	-webkit-user-select: none;
+    position: absolute;
+    -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     user-select: none;
@@ -13,12 +13,12 @@
 	0% {
 		transform: rotate(0deg);
 		font-size:500%;
-		color:blue;
+		color:white;
 	}
 	25% {
 		transform: rotate(90deg);
 		font-size:440%;
-		color:darkred;
+		color:blue;
 	}
 	50% {
 		transform: rotate(180deg);
@@ -30,18 +30,18 @@
 		font-size:440%;
 		color:orange;
 	}
-	100% { 
+	100% {
 		transform: rotate(359deg);
 		font-size:500%;
 		color:white;
 	}
 }
+
 #container {
 	width:1252px;
 	height:887px;
 	border:8px solid black;
 	border-radius:6px;
-	background-color:lightgrey;
 }
 #clicker {
 	left:526px;
@@ -62,13 +62,14 @@
 	width:1252px;
 	height:887px;
 	background-color:red;
+	background:radial-gradient(blue, red)
 }
 #retext {
-	top:470px;
+	top:400px;
 	width:1252px;
 	text-align: center;
 	font-size:100px;
 	color:white;
 	font-family:Impact, fantasy;
-	animation:2s spin infinite linear; 
+	animation:2s spin infinite linear;
 }
